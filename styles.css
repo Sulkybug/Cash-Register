@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(#1e004d, #10001f);
+  font-family: "Handjet", sans-serif;
+  font-size: 30px;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.drawer {
+  color: aliceblue;
+}
+
+.screen {
+  background-color: black;
+  color: greenyellow;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 20px beige;
+  width: 30%;
+}
+
+#priceScreen {
+  margin-top: 0px;
+}
+
+input {
+  background-color: rgb(28, 36, 19);
+  color: greenyellow;
+  padding-left: 5px;
+  font-family: "DSEG14 Classic", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  width: 50%;
+}
+
+img {
+  border-radius: 30px;
+  width: 50%;
+}
+
+button {
+  background-color: rgb(31, 31, 31);
+  color: antiquewhite;
+  border: solid 1px black;
+  font-family: "Handjet", sans-serif;
+  padding: 5px 7px 5px 7px;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: black;
+  font-weight: 800;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    flex-direction: column;
+  }
+
+  .register {
+    width: 95%;
+  }
+
+  .screen {
+    height: 40%;
+    width: 60%;
+    font-size: 25px;
+    overflow: scroll;
+    scroll-behavior: auto;
+    scrollbar-gutter: none;
+    scrollbar-color: greenyellow rgb(0, 0, 0);
+    border: solid 10px beige;
+  }
+
+  button {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+  li {
+    font-size: 20px;
+  }
+}

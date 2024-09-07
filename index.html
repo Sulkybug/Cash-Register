@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="img/cash-register.png" type="image/x-icon" />
+    <link
+      href="https://fonts.cdnfonts.com/css/dseg14-classic"
+      rel="stylesheet"
+    />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <div class="register">
+      <div class="screen">
+        <p id="priceScreen">Total:</p>
+        <label for="cash">Enter cash from customer: </label>
+        <input type="number" name="" id="cash" />
+        <p id="change-due"></p>
+      </div>
+      <img src="img/keyboard.jpg" alt="keyboard" />
+      <button id="purchase-btn">Purchase</button>
+    </div>
+
+    <div class="drawer">
+      <h2>Change in drawer:</h2>
+      <div id="changeInDrawer"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
